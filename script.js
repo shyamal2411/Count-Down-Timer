@@ -4,7 +4,7 @@ const endTime = document.querySelector('.display__end-time');
 const buttons = document.querySelectorAll('[data-time]');
 
 function timer(seconds) {
-  // clear any existing timers
+  // clear existing timers
   clearInterval(countdown);
 
   const now = Date.now();
@@ -19,7 +19,7 @@ function timer(seconds) {
       clearInterval(countdown);
       return;
     }
-    // display it
+    // display
     displayTimeLeft(secondsLeft);
   }, 1000);
 }
