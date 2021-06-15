@@ -1,9 +1,12 @@
 html {
   box-sizing: border-box;
   font-size: 10px;
-  background: #8E24AA;
-  background: linear-gradient(46deg,  #42a5f5 0%,#478ed1 50%,#0d47a1 100%);
+  background-color: #ff4e00;
+  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+
 }
+
+
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -48,7 +51,7 @@ body {
   padding: 2rem;
 }
 
-.timer__button {
+.timerBtn {
   background: none;
   border: 0;
   cursor: pointer;
